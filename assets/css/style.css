@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #171717;
+}
+
+table {
+    background-color: #202124;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #ffffff28;
+    padding: 10px;
+    color: #ffffffb6;
+}
+
+#club {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #38383849;
+}
+
+tr:hover {
+    background-color: #cfcfcf3a;
+}
+
+td.blue {
+    border-left: 3px solid #0000ff;
+}
+
+td.orange {
+    border-left: 3px solid #ffa500;
+}
+td.green {
+    border-left: 3px solid #039703;
+}
+
+td.red {
+    border-left: 3px solid #ff0000;
+}
+
+a:visited {
+    color: #adadadda;
+}
+
+a:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+img {
+    max-width: 27px;
+}
